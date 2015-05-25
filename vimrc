@@ -2,9 +2,9 @@
 syntax enable
 
 set expandtab
-set tabstop=4
-set shiftwidth=4
-set softtabstop=4
+set tabstop=2
+set shiftwidth=2
+set softtabstop=2
 set bs=2
 set ignorecase
 set smartcase
@@ -12,6 +12,7 @@ set ruler
 set cursorline
 set number
 set autoindent
+autocmd FileType make setlocal noexpandtab
 
 " Not so basic stuff
 set gdefault
